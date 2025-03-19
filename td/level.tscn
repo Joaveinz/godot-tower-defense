@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3 uid="uid://dovl0433k4u3i"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_5xgho"]
+
+[node name="Level" type="Node3D"]
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+transform = Transform3D(83.0232, 0, 0, 0, 1, 0, 0, 0, 100, -11.2559, 0, 0)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 5, 0, 0, 0, 15, -49.9351, 2, -42.5218)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 5, 0, 0, 0, 64.503, -27.1283, 2, -17.5089)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.238749, 0, -19.857, 0, 5, 0, 1.9857, 0, -2.38749, -17.4671, 2, 15.4169)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.95997, 0, -13.6909, 0, 5.005, 0, 0.39812, 0, -67.4016, -14.1053, 2.08549, -16.4188)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.96684, 0, 11.6972, 0, 5, 0, -0.362686, 0, 63.4335, 1.19779, 2, -1.37381)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.96684, 0, 11.6972, 0, 5, 0, -0.362686, 0, 63.4335, 10.3508, 2, -20.7752)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall7" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.418077, 0, 63.078, 0, 5, 0, -1.95581, 0, 13.4836, -19.8637, 2, 36.2462)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall8" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.07492, 0, 19.157, 0, 5, 0, -1.68658, 0, -12.2095, -3.81989, 2, 31.6179)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
+
+[node name="Wall9" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1.73978, 0, 31.8157, 0, 5, 0, -0.986487, 0, -56.1106, 25.5603, 2, 16.6254)
+mesh = SubResource("BoxMesh_5xgho")
+skeleton = NodePath("")
